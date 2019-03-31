@@ -18,15 +18,19 @@ It's good practice to have a virtual enviromment when running Machine Learning /
 If you are going to run scripts and individual agents. I suggest you do the following:
 ### Setting up Environment
 First, you will need to install Virtual Enviroment. Learn more about this here: https://docs.python-guide.org/dev/virtualenvs/ 
+
 ```$ pip install virtualenv```
 
 Now, run the following command to activate your virtual enviroment! 
+
 ```$ source venv/bin/activate```
 
 Now that our virtual enviroment is both installed and setup, we will run our config.sh file. Run the following command:
+
 ```$ ./config.sh```
 
 IF this is giving you 'permission denied' simply run: 
+
 ``` $ chmod +x ./config.sh```
 
 Here is the list of dependencies you have installed:
@@ -46,10 +50,12 @@ tqdm
 ```
 ### Finishing Session
 Once you are finished! make sure you deactive this session running the following command:
+
 ```$ deactive```
 
 ## Practice Agent
 Run the following command to see an agent at work!
+
 
 ```$ python3 ./Practice_Agents/agent_one.py```
 
