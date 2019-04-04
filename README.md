@@ -64,4 +64,14 @@ Run the following command to see an agent at work!
 $ python3 ./Practice_Agents/agent_one.py
 ```
 
+## CartPole Cross-Entropy Method
+Check our the Cross-Entropy Method notebook to learn about cross-entropy being used in RL. 
+
+After you're finished with that, check out the directory! There is both a notebook & a python script you can run. The notebook explains in detail what is doing on. 
+
+To run the agent:
+```
+$ python3 ./Cross_Entropy_Method_Agents/cart_pole_pytorch.py
+```
+
 MORE TO COME!
